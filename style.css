@@ -18,12 +18,22 @@ body{
     border-radius: 10px;
 }
 
-.app h1{
-    color: #0d253c;
-    font-size: 25px;
-    font-weight: 600;
+.header{
+    display: flex;
+    justify-content: space-between;
+  color: #0d253c;
+   border-bottom: 1px solid #333;
     padding-bottom: 30px;
-    border-bottom: 1px solid #333;
+}
+.header h1{
+     font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.header h2{
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .quiz{
@@ -84,6 +94,6 @@ body{
     color: #fff;
     cursor: pointer;
     font-weight: 500;
-    display: none;
+    display: block;
 }
 
