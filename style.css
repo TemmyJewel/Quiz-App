@@ -36,8 +36,22 @@ body{
     font-weight: 600;
 }
 
+.startquizbtn{
+    margin: 20px auto 0;
+    padding: 10px;
+    width: 150px;
+    background-color: #072d50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    display: block;
+}
+
 .quiz{
     padding: 20px 0;
+    display: none;
 }
 
 .quiz h2{

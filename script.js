@@ -40,6 +40,8 @@ const questions = [
 
 //DOM Elements from HTML
 const questionElement = document.getElementById("question");
+const quizDisplay = document.getElementById("quizdisplay");
+const startquizbtn = document.getElementById("startquizbtn");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const timer = document.getElementById("timer");
@@ -52,6 +54,8 @@ let timerId;
 
 //Starts Quiz
 function startQuiz(){
+    quizDisplay.style.display = "block";
+    startquizbtn.style.display = "none";
     currentQuestionindex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
@@ -164,5 +168,5 @@ nextButton.addEventListener("click", () => {
      }
 });
 
-//Starts quiz once page loads
-startQuiz();
+// //Starts quiz once page loads
+// startQuiz();
