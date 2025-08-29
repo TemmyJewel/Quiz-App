@@ -1,3 +1,4 @@
+/* Rest styles for all elements */
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +6,12 @@
     font-family: 'poppins', sans-serif;
 }
 
+/* Page background */
 body{
     background-color: #3d556c;
 }
 
+/* Main app container */
 .app{
     margin: 100px auto 0;
     width: 90%;
@@ -18,6 +21,7 @@ body{
     border-radius: 10px;
 }
 
+/* Header Section */
 .header{
     display: flex;
     justify-content: space-between;
@@ -36,6 +40,7 @@ body{
     font-weight: 600;
 }
 
+/* Start quiz button */
 .startquizbtn{
     margin: 20px auto 0;
     padding: 10px;
@@ -49,6 +54,7 @@ body{
     display: block;
 }
 
+/* Quiz container */
 .quiz{
     padding: 20px 0;
     display: none;
@@ -61,12 +67,14 @@ body{
     margin-bottom: 15px;
 }
 
+/* Container for answer buttons */
 .answer-buttons{
     display: flex;
     flex-direction: column;
 
 }
 
+/* Answer button styles */
 .btn{
     padding: 10px;
     margin: 10px 0;
@@ -81,6 +89,7 @@ body{
 
 }
 
+/*Hover effect */
 .btn:hover:not(:disabled){
     background-color: #042a4f;
     color: #fff;
@@ -90,6 +99,7 @@ body{
     cursor: no-drop;
 }
 
+/* Answer highlight */
 .correct{
     background-color: #22da84;
 }
@@ -98,6 +108,7 @@ body{
     background-color: #f94141;
 }
 
+/* Next button styling */
 #next-btn{
     margin: 20px auto 0;
     padding: 10px;
